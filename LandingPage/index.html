@@ -93,14 +93,24 @@
                 <small>We will send you a link, open it on your phone to download the app</small>
 
                 <div class="radio">
-
-                    <div>
+                    <div class="radio-label">
                         <input type="radio" name="radio-group" checked id="email">
+                        <svg viewBox="0 0 20 20" id="circle" class="svg">
+                            <circle cx="10" cy="10" r="8" name="radio" value="email" label="Email" checked=""
+                                class="outer"> </circle>
+
+                            <circle cx="10" cy="10" r="5" name="radio" value="email" label="Email" checked=""
+                                class="inner"></circle>
+                        </svg>
                         <label for="email">Email</label>
                     </div>
-
-                    <div>
-                        <input type="radio" name="radio-group" id="phone"> <label for="">Phone</label>
+                    <div class="radio-label">
+                        <input type="radio" name="radio-group" id="phone">
+                        <svg viewBox="0 0 20 20" id="circle" class="svg">
+                            <circle cx="10" cy="10" r="8" name="radio" value="mobile" label="Phone" class="empty-radio">
+                            </circle>
+                        </svg>
+                        <label for="">Phone</label>
                     </div>
                 </div>
 
